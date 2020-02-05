@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Zomato-abc</title>
+  <title>Zomato-Replica</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,20 +19,20 @@
 
 <body>
   <!-- /********** header-container Start**************/ -->
-  <header class="header-container">
+  <header class="h-container">
     <nav class="navbar navbar-expand-sm bg-light navbar-dark ">
       <a class="navbar-brand text-dark " href="#"><img src="./images/get-the-app-plain.svg" alt="Get the app">Get the app</a>
 
       <!-- Links -->
       <ul class="navbar-nav  ml-auto ">
-        <li class="nav-item ">
+        <li class="nav-item" id="nav_item_1">
           <a class="nav-link text-dark" href="#"><img src="./images/order-online.svg" alt="Order Food"> Order Food</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" id="nav_item_2">
           <a class="nav-link text-dark" href="#"><img src="./images/book-a-table.svg" alt="Book a Table"> Book a
             Table</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" id="nav_item_3">
           <a class="nav-link text-dark" href="#"><img src="./images/gold.svg" alt="Zomato Gold"> Zomato Gold</a>
         </li>
       </ul>
@@ -47,7 +47,7 @@
           <a class="text-white btn border-white" href="#">Create an account</a>
         </div>
       </div>
-      <div class="row">
+      <div class="search-restaurant row">
         <div class="col">
           <img id="zomato_flat" class="img-fluid m-auto d-block m-5" src="./images/zomato_flat_bg_logo.svg"
             alt="zomato_flat_bg_logo">
@@ -73,7 +73,7 @@
           </div>
 
           <div class="col-sm-12 col-md-6">
-          <input type="text" id="search-res" class="form-control" placeholder="Search for restaurants or cuisines...">
+          <input id="search-res" type="text" id="search-res" class="form-control" placeholder="Search for restaurants or cuisines...">
           </div>
           <div class="col-sm-12 col-md-2">
           <div class=" input-group-append" >
@@ -157,7 +157,7 @@
         <div class="widget bg-white p-5">
           <h4 class="mb-3">Enter your delivery location</h4>
           <div class="search-del input-group mb-3">
-            <input type="text" class="form-control mb-3" placeholder="Type delivery location here"
+            <input id="search-del" type="text" class="form-control mb-3" placeholder="Type delivery location here"
               aria-label="Type delivery location here" aria-describedby="basic-addon2">
             <div class="input-group-append mb-3">
               <button type="button" class="detect-btn btn btn-outline-secondary">Detect</button>
@@ -183,7 +183,7 @@
       <h2 id="cat-title">Quick Searches</h2>
       <p id="cat-subtitle" class="text-muted">Discover restaurants by type of meal</p>
 
-      <ul class="category-list list-group ">
+      <ul class=" list-group" id="category-list">
         <div class="row bg-white">
           <div class="col">
             <img src="./images/delivery.png" alt="categories img">
@@ -227,7 +227,7 @@
   <section class="localities  bg-light ">
     <div class="container p-3">
       <h2 id="loc-title" class="">Popular localities in and around Mumbai</h2>
-      <p id="loc-subtitle" class="text-muted">Explore restaurants, bars, and cafes by locality</p>
+      <p id="loc-subtitle" class="text-muted">Explore restaurants, bars, and cafes by locality.</p>
       <ul class="locality-list bg-white" id="loc-list">
         <li>Lower Parel(460 places)</li>
         <li>Borivali West(593 places)</li>
