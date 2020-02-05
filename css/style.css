@@ -1,0 +1,140 @@
+@use './reset.scss';
+/* Add your css here */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+img {
+  width: 30px;
+}
+
+.banner {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
+}
+
+#zomato_flat {
+  width: 150px;
+  height: 150px;
+}
+
+#collections-img1, #collections-img2, #collections-img3, #collections-img4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#collections-img1 {
+  background-image: url(../images/trending.jpg);
+}
+
+#collections-img2 {
+  background-image: url(../images/mumbai.jpg);
+}
+
+#collections-img3 {
+  background-image: url(../images/open.jpg);
+}
+
+#collections-img4 {
+  background-image: url(../images/surecrisp.jpeg);
+}
+
+#collection-btn {
+  background-color: white;
+}
+
+.category-list a {
+  text-decoration: none;
+  color: black;
+}
+
+ul, li {
+  list-style: none;
+}
+
+#loc-list {
+  -webkit-column-count: 3;
+          column-count: 3;
+  padding: 10px;
+}
+
+hr.hr-text {
+  position: relative;
+  border: none;
+  height: 1px;
+  background: #999;
+}
+
+hr.hr-text::before {
+  content: attr(data-content);
+  display: inline-block;
+  background: #fff;
+  font-weight: bold;
+  font-size: 0.85rem;
+  color: #999;
+  border-radius: 30rem;
+  padding: 0.2rem 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#app-img {
+  width: 50vh;
+  height: 60vh;
+}
+
+#app-link > img {
+  width: 150px;
+  height: 50px;
+}
+
+.footer-flag {
+  width: 50px;
+}
+
+.footer-countries-list {
+  -webkit-column-count: 5;
+          column-count: 5;
+  padding: 10px;
+}
+
+.footer-wrapper {
+  background-color: #282c35;
+}
+
+@media only screen and (max-width: 600px) {
+  .ad-zomalandimg {
+    display: none;
+  }
+  #loc-list {
+    -webkit-column-count: 1;
+            column-count: 1;
+    padding: 10px;
+  }
+  .footer-countries-list {
+    -webkit-column-count: 1;
+            column-count: 1;
+    padding: 10px;
+  }
+  .privacyInfo, .icons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=style.css.map */
