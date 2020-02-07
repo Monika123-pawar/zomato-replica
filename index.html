@@ -160,10 +160,10 @@
         <div class="widget bg-white p-5">
           <h4 class="mb-3">Enter your delivery location</h4>
           <div class="input-group mb-3">
-            <input type="text" class="search-del form-control mb-3" placeholder="Type delivery location here"
+            <input type="text" id="search-del" class="search-del form-control mb-3" placeholder="Type delivery location here"
               aria-label="Type delivery location here" aria-describedby="basic-addon2">
             <div class="input-group-append mb-3">
-              <button type="button" class="detect-btn btn btn-outline-secondary">Detect</button>
+              <button type="button" id="detect-btn" class="detect-btn btn btn-outline-secondary">Detect</button>
             </div>
           </div>
           <button type="button" class="order-btn btn btn-success btn-lg btn-block">Order Food Online!</button>
@@ -230,7 +230,7 @@
   <section class="localities  bg-light ">
     <div class="container p-3">
       <h2 id="loc-title" class="">Popular localities in and around Mumbai</h2>
-      <p id="loc-subtitle" class="text-muted">Explore restaurants, bars, and cafés by locality.</p>
+      <p id="loc-subtitle" class="text-muted"> Explore restaurants, bars, and cafés by locality</p>
       <ul class="locality-list bg-white" id="loc-list">
         <li>Lower Parel(460 places)</li>
         <li>Borivali West(593 places)</li>
@@ -483,11 +483,6 @@
       </div>
   </footer>
   <!-- /********** footer end**************/ -->
-
-
-
-
-  <br>
 
 
   <!-- Optional JavaScript -->
