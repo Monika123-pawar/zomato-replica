@@ -29,6 +29,13 @@ img {
   height: 150px;
 }
 
+#search-btn {
+  background-color: #dc3545;
+  padding: 5px;
+  border-radius: 6px;
+  color: white;
+}
+
 #collections-img1, #collections-img2, #collections-img3, #collections-img4 {
   background-size: cover;
   background-repeat: no-repeat;
@@ -52,6 +59,23 @@ img {
 
 #collection-btn {
   background-color: white;
+}
+
+.widget {
+  background-color: white;
+  padding: 50px;
+}
+
+.detect-btn {
+  padding: 5px;
+  color: white;
+  background-color: rgba(22, 133, 22, 0.842);
+  border-radius: 6px;
+}
+
+.category-list {
+  list-style-type: none;
+  margin: 0;
 }
 
 .category-list a {
