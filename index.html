@@ -79,8 +79,8 @@
               placeholder="Search for restaurants or cuisines...">
           </div>
           <div class="col-sm-12 col-md-2">
-            <div class="input-group-append">
-              <button id="search-btn" class="btn search-btn" type="submit" style="width:150px;">Search</button>
+            <div class=" input-group-append">
+              <button class="btn search-btn  btn-danger" type="submit" style="width:150px;">search</button>
             </div>
           </div>
         </div>
@@ -157,14 +157,13 @@
       <div class="col-lg-4 m-3 ">
         <h3>Order Food Online</h3>
         <p class="text-muted"> Best restaurants delivering to your doorstep</p>
-        <div class="widget">
-          <h4>Enter your delivery location </h4>
+        <div class="widget bg-white p-5">
+          <h4 class="mb-3">Enter your delivery location</h4>
           <div class="input-group mb-3">
-            <input type="text" id="search-del" class="search-del form-control mb-3"
-              placeholder="Type delivery location here" aria-label="Type delivery location here"
-              aria-describedby="basic-addon2">
+            <input type="text" class="search-del form-control mb-3" placeholder="Type delivery location here"
+              aria-label="Type delivery location here" aria-describedby="basic-addon2">
             <div class="input-group-append mb-3">
-              <button type="button" class="detect-btn">Detect</button>
+              <button type="button" class="detect-btn btn btn-outline-secondary">Detect</button>
             </div>
           </div>
           <button type="button" class="order-btn btn btn-success btn-lg btn-block">Order Food Online!</button>
@@ -172,7 +171,6 @@
           <div class="dropdown-divider mt-3"></div>
 
           <p class="text-success text-center">Use code ZOMATO to get up to 50% OFF. T&Cs apply.</p>
-
         </div>
       </div>
       <!-- /********** widget end**************/ -->
@@ -184,11 +182,11 @@
 
   <!-- /********** Categories Start**************/ -->
   <section class="categories bg-light">
-    <div class="container">
+    <div class="container ">
       <h2 id="cat-title">Quick Searches</h2>
       <p id="cat-subtitle" class="text-muted">Discover restaurants by type of meal</p>
 
-      <ul class="category-list" id="category-list">
+      <ul class="category-list list-group" id="category-list">
         <div class="row bg-white">
           <div class="col">
             <img src="./images/delivery.png" alt="categories img">
@@ -232,7 +230,7 @@
   <section class="localities  bg-light ">
     <div class="container p-3">
       <h2 id="loc-title" class="">Popular localities in and around Mumbai</h2>
-      <p id="loc-subtitle" class="text-muted"> Explore restaurants, bars, and cafés by locality</p>
+      <p id="loc-subtitle" class="text-muted">Explore restaurants, bars, and cafés by locality.</p>
       <ul class="locality-list bg-white" id="loc-list">
         <li>Lower Parel(460 places)</li>
         <li>Borivali West(593 places)</li>
@@ -278,8 +276,7 @@
         </div>
         <div class="col">
           <h3 class="mt-3">Get the Zomato App</h3>
-          <p class="text-muted">See menus and photos for nearby restaurants and bookmark your favorite places on the
-            go
+          <p class="text-muted">See menus and photos for nearby restaurants and bookmark your favorite places on the go
           </p>
           <p>We'll send you alink,open it on your phone to download the app</p>
           <div class="input-group mb-3">
@@ -486,6 +483,11 @@
       </div>
   </footer>
   <!-- /********** footer end**************/ -->
+
+
+
+
+  <br>
 
 
   <!-- Optional JavaScript -->
